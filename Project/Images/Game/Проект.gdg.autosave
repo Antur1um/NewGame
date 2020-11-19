@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project firstLayout="">
+    <gdVersion build="97" major="4" minor="0" revision="0" />
+    <properties folderProject="false" linuxExecutableFilename="" macExecutableFilename="" orientation="landscape" packageName="com.example.gamename" projectFile="C:\ProjectGame\Project\Images\Game\Проект.gdg" useExternalSourceFiles="false" winExecutableFilename="" winExecutableIconFile="">
+        <name>Проект</name>
+        <author></author>
+        <windowWidth>800</windowWidth>
+        <windowHeight>600</windowHeight>
+        <latestCompilationDirectory></latestCompilationDirectory>
+        <maxFPS>60</maxFPS>
+        <minFPS>10</minFPS>
+        <verticalSync>false</verticalSync>
+        <platformSpecificAssets />
+        <loadingScreen showGDevelopSplash="false" />
+        <extensions>
+            <extension name="BuiltinObject" />
+            <extension name="BuiltinAudio" />
+            <extension name="BuiltinVariables" />
+            <extension name="BuiltinTime" />
+            <extension name="BuiltinMouse" />
+            <extension name="BuiltinKeyboard" />
+            <extension name="BuiltinJoystick" />
+            <extension name="BuiltinCamera" />
+            <extension name="BuiltinWindow" />
+            <extension name="BuiltinFile" />
+            <extension name="BuiltinNetwork" />
+            <extension name="BuiltinScene" />
+            <extension name="BuiltinAdvanced" />
+            <extension name="Sprite" />
+            <extension name="BuiltinCommonInstructions" />
+            <extension name="BuiltinCommonConversions" />
+            <extension name="BuiltinStringInstructions" />
+            <extension name="BuiltinMathematicalTools" />
+            <extension name="BuiltinExternalLayouts" />
+            <extension name="PanelSpriteObject" />
+            <extension name="AnchorBehavior" />
+        </extensions>
+        <platforms>
+            <platform name="GDevelop C++ platform" />
+        </platforms>
+        <currentPlatform>GDevelop C++ platform</currentPlatform>
+    </properties>
+    <resources>
+        <resources>
+            <resource alwaysLoaded="false" file="../Images/bg10.jpg" kind="image" name="bg10.jpg" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="../Images/Играть" kind="image" name="Играть" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="../Images/История" kind="image" name="История" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="../Images/Выход" kind="image" name="Выход" smoothed="true" userAdded="false" />
+            <resource alwaysLoaded="false" file="../Выхо.jpg" kind="image" name="Выхо.jpg" smoothed="true" userAdded="true" />
+        </resources>
+        <resourceFolders />
+    </resources>
+    <objects />
+    <objectsGroups />
+    <variables />
+    <layouts>
+        <layout b="209" disableInputWhenNotFocused="true" mangledName="_1053_1086_1074_1072_1103_32_1089_1094_1077_1085_1072" name="Новая сцена" oglFOV="90.000000" oglZFar="500.000000" oglZNear="1.000000" r="209" standardSortMethod="true" stopSoundsOnStartup="true" title="" v="209">
+            <uiSettings grid="true" gridB="255" gridG="180" gridHeight="32" gridOffsetX="0" gridOffsetY="0" gridR="158" gridWidth="32" snap="true" windowMask="true" zoomFactor="0.483524" />
+            <objectsGroups />
+            <variables />
+            <instances>
+                <instance angle="0.000000" customSize="true" height="600.000000" layer="" locked="false" name="Menubg" width="800.000000" x="0.000000" y="0.000000" zOrder="1">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="55.000000" layer="" locked="false" name="PlayBotom" width="155.000000" x="325.595734" y="294.748962" zOrder="2">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="History" width="0.000000" x="36.630608" y="488.053589" zOrder="3">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="Exit" width="0.000000" x="611.000000" y="488.053986" zOrder="4">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="НовыйОбъект" width="0.000000" x="576.000000" y="96.000000" zOrder="5">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="Menubg" width="0.000000" x="512.000000" y="192.000000" zOrder="6">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="NewObject" width="0.000000" x="384.000000" y="128.000000" zOrder="7">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+            </instances>
+            <objects>
+                <object bottomMargin="0.000000" height="32.000000" leftMargin="0.000000" name="Menubg" rightMargin="0.000000" texture="bg10.jpg" tiled="true" topMargin="0.000000" type="PanelSpriteObject::PanelSprite" width="32.000000">
+                    <variables />
+                    <behaviors>
+                        <behavior bottomEdgeAnchor="0" leftEdgeAnchor="0" name="Anchor" relativeToOriginalWindowSize="true" rightEdgeAnchor="0" topEdgeAnchor="0" type="AnchorBehavior::AnchorBehavior" />
+                    </behaviors>
+                </object>
+                <object bottomMargin="0.000000" height="10.000000" leftMargin="0.000000" name="PlayBotom" rightMargin="0.000000" texture="Играть" tiled="true" topMargin="0.000000" type="PanelSpriteObject::PanelSprite" width="30.000000">
+                    <variables />
+                    <behaviors />
+                </object>
+                <object bottomMargin="0.000000" height="55.000000" leftMargin="0.000000" name="History" rightMargin="0.000000" texture="История" tiled="true" topMargin="0.000000" type="PanelSpriteObject::PanelSprite" width="155.000000">
+                    <variables />
+                    <behaviors />
+                </object>
+                <object bottomMargin="0.000000" height="55.000000" leftMargin="0.000000" name="Exit" rightMargin="0.000000" texture="Выход" tiled="true" topMargin="0.000000" type="PanelSpriteObject::PanelSprite" width="155.000000">
+                    <variables />
+                    <behaviors />
+                </object>
+                <object name="НовыйОбъект" type="Sprite" updateIfNotVisible="false">
+                    <variables />
+                    <behaviors />
+                    <animations>
+                        <animation name="" useMultipleDirections="false">
+                            <directions>
+                                <direction looping="false" timeBetweenFrames="1.000000">
+                                    <sprites />
+                                </direction>
+                            </directions>
+                        </animation>
+                    </animations>
+                </object>
+                <object name="NewObject" type="Sprite" updateIfNotVisible="false">
+                    <variables />
+                    <behaviors />
+                    <animations>
+                        <animation name="" useMultipleDirections="false">
+                            <directions>
+                                <direction looping="false" timeBetweenFrames="1.000000">
+                                    <sprites />
+                                </direction>
+                            </directions>
+                        </animation>
+                    </animations>
+                </object>
+            </objects>
+            <events>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions />
+                    <actions />
+                    <events />
+                </event>
+            </events>
+            <layers>
+                <layer name="" visibility="true">
+                    <cameras>
+                        <camera defaultSize="true" defaultViewport="true" height="0.000000" viewportBottom="1.000000" viewportLeft="0.000000" viewportRight="1.000000" viewportTop="0.000000" width="0.000000" />
+                    </cameras>
+                    <effects />
+                </layer>
+            </layers>
+            <behaviorsSharedData>
+                <behaviorSharedData name="Anchor" type="AnchorBehavior::AnchorBehavior" />
+            </behaviorsSharedData>
+        </layout>
+    </layouts>
+    <externalEvents />
+    <externalLayouts />
+    <externalSourceFiles />
+</project>
